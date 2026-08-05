@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container glass">
+    <h2>Upload Celebrity Photo</h2>
+    <form action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit" class="scan-btn">Scan</button>
+    </form>
+    <p class="note">Supported: jpg, png | Try Elon Musk!</p>
+</div>
+{% endblock %}

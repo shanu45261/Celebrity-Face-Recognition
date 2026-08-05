@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.navbar a {
+    color: #0ff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    text-align: center;
+}
+
+.scan-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #0ff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.scan-btn:hover {
+    background: #0aa;
+    color: #fff;
+}
+
+.uploaded-img {
+    max-width: 250px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+}
+.webcam-container {
+    text-align: center;
+}
+
+.camera-frame {
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.4);
+}
+
+.webcam-stream {
+    width: 640px;
+    height: 480px;
+    border-radius: 20px;
+}

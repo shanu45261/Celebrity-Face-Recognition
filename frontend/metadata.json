@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Celebrity DeepFace Showcase",
+  "description": "A modern AI project showcase demonstrating celebrity face recognition with dynamic theme transitions and glassmorphism UI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
